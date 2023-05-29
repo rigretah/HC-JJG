@@ -1,0 +1,1 @@
+<?php die(); ?>{"Content-Type":"text\/html; charset=UTF-8","Link":"<https:\/\/rigretah.dk\/hc-jjg\/wp-json\/>; rel=\"https:\/\/api.w.org\/\", <https:\/\/rigretah.dk\/hc-jjg\/wp-json\/wp\/v2\/pages\/1285>; rel=\"alternate\"; type=\"application\/json\", <https:\/\/rigretah.dk\/hc-jjg\/>; rel=shortlink"}
