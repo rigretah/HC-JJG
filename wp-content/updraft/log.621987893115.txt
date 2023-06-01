@@ -1,0 +1,304 @@
+0000.000 (0) Opened log file at time: Wed, 31 May 2023 10:00:50 +0000 on https://rigretah.dk/hc-jjg
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux linux209.unoeuro.com 3.10.0-962.3.2.lve1.5.77.el7.x86_64 #1 SMP Mon Dec 12 07:06:14 EST 2022 x86_64) MySQL: 5.7.42-45-log (max packet size=104857600) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 13.6M | 16M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 91832.9 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: weekly)
+0000.003 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.006 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1685435997, seconds_ago=91253)
+0000.007 (0) Set semaphore last lock (f) time to 2023-05-31 10:00:50
+0000.008 (0) Semaphore lock (f) complete
+0000.009 (0) Backup run: resumption=0, nonce=621987893115, file_nonce=621987893115 begun at=1685527250 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1685527550) in case this run gets aborted
+0000.031 (0) Checking if we have a zip executable available
+0000.032 (0) Testing: /usr/bin/zip
+0000.041 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.044 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.045 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.045 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.046 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.051 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.051 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.064 (0) Working binary zip found: /usr/bin/zip
+0000.066 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.067 (0) Creation of backups of directories: beginning
+0000.069 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.727 (0) Total entities for the zip file: 2021 directories, 9335 files (0 skipped as non-modified), 176.7 MB
+0000.729 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.730 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.731 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.733 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.734 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.735 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.737 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.738 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.739 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.741 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.741 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.7 MB, 9335 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.667 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 3.90 MB
+0001.707 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1100 files added (on-disk size: 4023 KB)
+0001.709 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1200 files added (on-disk size: 4023 KB)
+0001.710 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1300 files added (on-disk size: 4023 KB)
+0001.712 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1400 files added (on-disk size: 4023 KB)
+0001.714 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1500 files added (on-disk size: 4023 KB)
+0001.715 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1600 files added (on-disk size: 4023 KB)
+0001.717 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1700 files added (on-disk size: 4023 KB)
+0001.718 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1800 files added (on-disk size: 4023 KB)
+0001.719 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 1900 files added (on-disk size: 4023 KB)
+0001.720 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2000 files added (on-disk size: 4023 KB)
+0001.721 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.6 MB, 9335 files batched, 1001 (2002) added so far); re-opening (prior size: 4023 KB)
+0003.540 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 10.10 MB
+0003.543 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2100 files added (on-disk size: 10297.3 KB)
+0003.545 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2200 files added (on-disk size: 10297.3 KB)
+0003.546 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2300 files added (on-disk size: 10297.3 KB)
+0003.548 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2400 files added (on-disk size: 10297.3 KB)
+0003.550 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2500 files added (on-disk size: 10297.3 KB)
+0003.551 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2600 files added (on-disk size: 10297.3 KB)
+0003.553 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2700 files added (on-disk size: 10297.3 KB)
+0003.554 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2800 files added (on-disk size: 10297.3 KB)
+0003.556 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 2900 files added (on-disk size: 10297.3 KB)
+0003.558 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3000 files added (on-disk size: 10297.3 KB)
+0003.558 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.8 MB, 9335 files batched, 1001 (3003) added so far); re-opening (prior size: 10297.3 KB)
+0004.657 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 14.10 MB
+0004.660 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3100 files added (on-disk size: 14468.6 KB)
+0004.661 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3200 files added (on-disk size: 14468.6 KB)
+0004.662 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3300 files added (on-disk size: 14468.6 KB)
+0004.663 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3400 files added (on-disk size: 14468.6 KB)
+0004.665 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3500 files added (on-disk size: 14468.6 KB)
+0004.666 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3600 files added (on-disk size: 14468.6 KB)
+0004.668 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3700 files added (on-disk size: 14468.6 KB)
+0004.670 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3800 files added (on-disk size: 14468.6 KB)
+0004.672 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 3900 files added (on-disk size: 14468.6 KB)
+0004.674 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4000 files added (on-disk size: 14468.6 KB)
+0004.674 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.3 MB, 9335 files batched, 1001 (4004) added so far); re-opening (prior size: 14468.6 KB)
+0006.803 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 21.70 MB
+0006.806 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4100 files added (on-disk size: 22204.3 KB)
+0006.809 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4200 files added (on-disk size: 22204.3 KB)
+0006.810 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4300 files added (on-disk size: 22204.3 KB)
+0006.812 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4400 files added (on-disk size: 22204.3 KB)
+0006.814 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4500 files added (on-disk size: 22204.3 KB)
+0006.816 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4600 files added (on-disk size: 22204.3 KB)
+0006.818 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4700 files added (on-disk size: 22204.3 KB)
+0006.820 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4800 files added (on-disk size: 22204.3 KB)
+0006.822 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 4900 files added (on-disk size: 22204.3 KB)
+0006.823 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5000 files added (on-disk size: 22204.3 KB)
+0006.824 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.1 MB, 9335 files batched, 1001 (5005) added so far); re-opening (prior size: 22204.3 KB)
+0008.715 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 28.00 MB
+0008.718 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5100 files added (on-disk size: 28702 KB)
+0008.720 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5200 files added (on-disk size: 28702 KB)
+0008.721 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5300 files added (on-disk size: 28702 KB)
+0008.722 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5400 files added (on-disk size: 28702 KB)
+0008.723 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5500 files added (on-disk size: 28702 KB)
+0008.725 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5600 files added (on-disk size: 28702 KB)
+0008.726 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5700 files added (on-disk size: 28702 KB)
+0008.727 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5800 files added (on-disk size: 28702 KB)
+0008.729 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 5900 files added (on-disk size: 28702 KB)
+0008.730 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6000 files added (on-disk size: 28702 KB)
+0008.732 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.1 MB, 9335 files batched, 1001 (6006) added so far); re-opening (prior size: 28702 KB)
+0010.683 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 34.20 MB
+0010.687 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6100 files added (on-disk size: 35056.8 KB)
+0010.688 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6200 files added (on-disk size: 35056.8 KB)
+0010.689 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6300 files added (on-disk size: 35056.8 KB)
+0010.690 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6400 files added (on-disk size: 35056.8 KB)
+0010.692 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6500 files added (on-disk size: 35056.8 KB)
+0010.693 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6600 files added (on-disk size: 35056.8 KB)
+0010.694 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6700 files added (on-disk size: 35056.8 KB)
+0010.695 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.7 MB, 9335 files batched, 787 (6793) added so far); re-opening (prior size: 35056.8 KB)
+0012.644 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.8 s, rate: 9243 KB/s)
+0012.646 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8448970317841, normalised_time=2.7696678969325, max_time=12.64493393898, data points known=1, old_max_bytes=26214400, new_max_bytes=71809191)
+0012.647 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6800 files added (on-disk size: 41000.5 KB)
+0012.648 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 6900 files added (on-disk size: 41000.5 KB)
+0012.650 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7000 files added (on-disk size: 41000.5 KB)
+0012.652 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7100 files added (on-disk size: 41000.5 KB)
+0012.654 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7200 files added (on-disk size: 41000.5 KB)
+0012.655 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7300 files added (on-disk size: 41000.5 KB)
+0012.657 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7400 files added (on-disk size: 41000.5 KB)
+0012.659 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7500 files added (on-disk size: 41000.5 KB)
+0012.661 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7600 files added (on-disk size: 41000.5 KB)
+0012.662 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7700 files added (on-disk size: 41000.5 KB)
+0012.665 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26.3 MB, 9335 files batched, 1001 (7794) added so far); re-opening (prior size: 41000.5 KB)
+0014.982 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: size is now: 49.60 MB
+0014.985 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7800 files added (on-disk size: 50758.7 KB)
+0014.988 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 7900 files added (on-disk size: 50758.7 KB)
+0014.991 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8000 files added (on-disk size: 50758.7 KB)
+0014.994 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8100 files added (on-disk size: 50758.7 KB)
+0014.997 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8200 files added (on-disk size: 50758.7 KB)
+0014.999 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8300 files added (on-disk size: 50758.7 KB)
+0015.001 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8400 files added (on-disk size: 50758.7 KB)
+0015.003 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8500 files added (on-disk size: 50758.7 KB)
+0015.005 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8600 files added (on-disk size: 50758.7 KB)
+0015.008 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8700 files added (on-disk size: 50758.7 KB)
+0015.010 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.8 MB, 9335 files batched, 1001 (8795) added so far); re-opening (prior size: 50758.7 KB)
+0017.248 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8800 files added (on-disk size: 58466.8 KB)
+0017.250 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 8900 files added (on-disk size: 58466.8 KB)
+0017.252 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 9000 files added (on-disk size: 58466.8 KB)
+0017.254 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 9100 files added (on-disk size: 58466.8 KB)
+0017.255 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 9200 files added (on-disk size: 58466.8 KB)
+0017.256 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.tmp: 9300 files added (on-disk size: 58466.8 KB)
+0018.159 (0) Creating zip file manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.list-temp.tmp)
+0018.177 (0) Successfully created zip file manifest (size: 782304)
+0018.630 (0) Created plugins zip (0) - 60924.2 KB in 18.6 s (3282.5 KB/s) (sha1: 77d4bce55bc57f3eece4dfe1211436e3bd49f2ce, sha256: 961086ce54770826d1c3400b6ce2dc31baf87a7e04d0857acfa6ddb4bfeabb79)
+0018.636 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.637 (0) No remote despatch: user chose no remote backup service
+0018.637 (0) Recording as successfully uploaded: backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip
+0018.638 (0) Deleting zip manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip.list.tmp)
+0018.639 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.640 (0) Number of backup sets in history: 5; groups (db): 1
+0018.641 (0) Examining (for databases) backup set with group_id=0, nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0018.641 (0) Examining (for databases) backup set with group_id=0, nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0018.641 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.642 (0) Examining (for databases) backup set with group_id=0, nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0018.642 (0) Examining (for databases) backup set with group_id=0, nonce=51707aa99b95, datestamp=1685282886 (May 28 2023 14:08:06)
+0018.642 (0) Examining (for databases) backup set with group_id=0, nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0018.642 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.642 (0) Number of backup sets in history: 5; groups (files): 1
+0018.642 (0) Examining (for files) backup set with nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0018.642 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0018.643 (0) Examining (for files) backup set with nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0018.643 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.643 (0) Examining (for files) backup set with nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0018.643 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0018.644 (0) Examining (for files) backup set with nonce=51707aa99b95, datestamp=1685282886 (May 28 2023 14:08:06)
+0018.644 (0) plugins: over retain limit (2); will delete this file entity
+0018.644 (0) themes: over retain limit (2); will delete this file entity
+0018.644 (0) uploads: over retain limit (2); will delete this file entity
+0018.644 (0) others: over retain limit (2); will delete this file entity
+0018.644 (0) Delete file: backup_2023-05-28-1408_HC_exam_project_51707aa99b95-plugins.zip, service=none
+0018.644 (0) Deleting local copy (backup_2023-05-28-1408_HC_exam_project_51707aa99b95-plugins.zip)
+0018.646 (0) Delete file: backup_2023-05-28-1408_HC_exam_project_51707aa99b95-themes.zip, service=none
+0018.646 (0) Deleting local copy (backup_2023-05-28-1408_HC_exam_project_51707aa99b95-themes.zip)
+0018.646 (0) Delete file: backup_2023-05-28-1408_HC_exam_project_51707aa99b95-uploads.zip, service=none
+0018.647 (0) Deleting local copy (backup_2023-05-28-1408_HC_exam_project_51707aa99b95-uploads.zip)
+0018.647 (0) Delete file: backup_2023-05-28-1408_HC_exam_project_51707aa99b95-others.zip, service=none
+0018.647 (0) Deleting local copy (backup_2023-05-28-1408_HC_exam_project_51707aa99b95-others.zip)
+0018.649 (0) This backup set is now empty; will remove from history
+0018.649 (0) Deleting log file (log.51707aa99b95.txt)
+0018.650 (0) Examining (for files) backup set with nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0018.650 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0018.650 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0018.654 (0) Beginning creation of dump of themes (split every: 400 MB)
+0018.698 (0) Total entities for the zip file: 95 directories, 440 files (0 skipped as non-modified), 15.1 MB
+0018.700 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.702 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.703 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0018.705 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0019.145 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.tmp: size is now: 13.10 MB
+0019.151 (0) Creating zip file manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.list-temp.tmp)
+0019.152 (0) Successfully created zip file manifest (size: 30768)
+0019.263 (0) Created themes zip (0) - 13378.5 KB in 0.6 s (22022.8 KB/s) (sha1: ce7762d1cd698021f98442fe82191cfeacfcd6a4, sha256: e3829e204b99a55354a6a376bbdf11c3eff3843a8e9a82fafa9f69cb192a9340)
+0019.266 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0019.267 (0) No remote despatch: user chose no remote backup service
+0019.268 (0) Recording as successfully uploaded: backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip
+0019.270 (0) Deleting zip manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip.list.tmp)
+0019.271 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0019.273 (0) Number of backup sets in history: 4; groups (db): 1
+0019.274 (0) Examining (for databases) backup set with group_id=0, nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0019.274 (0) Examining (for databases) backup set with group_id=0, nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0019.274 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0019.274 (0) Examining (for databases) backup set with group_id=0, nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0019.274 (0) Examining (for databases) backup set with group_id=0, nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0019.274 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0019.275 (0) Number of backup sets in history: 4; groups (files): 1
+0019.275 (0) Examining (for files) backup set with nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0019.275 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0019.276 (0) Examining (for files) backup set with nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0019.276 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0019.277 (0) Examining (for files) backup set with nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0019.277 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0019.278 (0) Examining (for files) backup set with nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0019.278 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0019.279 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0019.284 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0019.285 (0) Looking for candidates to backup in: /var/www/rigretah.dk/public_html/hc-jjg/wp-content/uploads
+0019.285 (0) finding files: wpcf7_uploads: adding to list (1)
+0019.286 (0) finding files: pum: adding to list (2)
+0019.287 (0) finding files: 2021: adding to list (3)
+0019.287 (0) finding files: complianz: adding to list (4)
+0019.288 (0) finding files: hummingbird-assets: adding to list (5)
+0019.288 (0) finding files: 2022: adding to list (6)
+0019.289 (0) finding files: elementor: adding to list (7)
+0019.289 (0) finding files: 2023: adding to list (8)
+0019.290 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0019.301 (0) Total entities for the zip file: 15 directories, 475 files (0 skipped as non-modified), 39.6 MB
+0019.303 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0019.305 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.306 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.307 (0) Zip: backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0021.119 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.tmp: size is now: 36.20 MB
+0021.123 (0) Creating zip file manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.list-temp.tmp)
+0021.157 (0) Successfully created zip file manifest (size: 27486)
+0021.456 (0) Created uploads zip (0) - 37114.5 KB in 2.2 s (17148.8 KB/s) (sha1: 54904c5a78b60ffff2b89550dcfe1394e86cb18d, sha256: 83d0fd4194c18a1d7b59f4fc6a53a10d613ab20f735dc8535feb4654455c9296)
+0021.458 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0021.459 (0) No remote despatch: user chose no remote backup service
+0021.459 (0) Recording as successfully uploaded: backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip
+0021.460 (0) Deleting zip manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip.list.tmp)
+0021.462 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0021.464 (0) Number of backup sets in history: 4; groups (db): 1
+0021.465 (0) Examining (for databases) backup set with group_id=0, nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0021.465 (0) Examining (for databases) backup set with group_id=0, nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0021.465 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0021.466 (0) Examining (for databases) backup set with group_id=0, nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0021.466 (0) Examining (for databases) backup set with group_id=0, nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0021.466 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0021.466 (0) Number of backup sets in history: 4; groups (files): 1
+0021.467 (0) Examining (for files) backup set with nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0021.467 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0021.467 (0) Examining (for files) backup set with nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0021.467 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0021.468 (0) Examining (for files) backup set with nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0021.468 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0021.468 (0) Examining (for files) backup set with nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0021.468 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0021.468 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0021.471 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.472 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.472 (0) Looking for candidates to backup in: /var/www/rigretah.dk/public_html/hc-jjg/wp-content
+0021.472 (0) finding files: index.php: adding to list (1)
+0021.473 (0) finding files: updraft: skipping: this is the updraft directory
+0021.473 (0) finding files: upgrade: skipping: excluded by options
+0021.474 (0) finding files: uploads: skipping: this is the uploads directory
+0021.474 (0) finding files: advanced-cache.php: adding to list (2)
+0021.474 (0) finding files: themes: skipping: this is the themes directory
+0021.475 (0) finding files: wphb-logs: adding to list (3)
+0021.475 (0) finding files: plugins: skipping: this is the plugins directory
+0021.475 (0) finding files: wphb-cache: adding to list (4)
+0021.476 (0) finding files: wflogs: adding to list (5)
+0021.478 (0) Total entities for the zip file: 7 directories, 20 files (0 skipped as non-modified), 7.8 MB
+0022.102 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-others.zip.tmp: size is now: 3.60 MB
+0022.104 (0) Creating zip file manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-others.zip.list-temp.tmp)
+0022.105 (0) Successfully created zip file manifest (size: 960)
+0022.134 (0) Created others zip (0) - 3677.8 KB in 0.7 s (5599.5 KB/s) (sha1: f711aa4fc0377751fd96d3c71a56ad946e581512, sha256: 04a1b2df9d30c85bfe3759a8cc3444ef61c8c672d0cd02ae2c12ee6776cff070)
+0022.139 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0022.140 (0) No remote despatch: user chose no remote backup service
+0022.141 (0) Recording as successfully uploaded: backup_2023-05-31-1000_HC_exam_project_621987893115-others.zip
+0022.142 (0) Deleting zip manifest (backup_2023-05-31-1000_HC_exam_project_621987893115-others.zip.list.tmp)
+0022.143 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0022.144 (0) Number of backup sets in history: 4; groups (db): 1
+0022.145 (0) Examining (for databases) backup set with group_id=0, nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0022.148 (0) Examining (for databases) backup set with group_id=0, nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0022.148 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.148 (0) Examining (for databases) backup set with group_id=0, nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0022.148 (0) Examining (for databases) backup set with group_id=0, nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0022.148 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.149 (0) Number of backup sets in history: 4; groups (files): 1
+0022.149 (0) Examining (for files) backup set with nonce=c07da51ec21e, datestamp=1685435997 (May 30 2023 08:39:57)
+0022.149 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0022.149 (0) Examining (for files) backup set with nonce=e197a548a685, datestamp=1685435992 (May 30 2023 08:39:52)
+0022.149 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.150 (0) Examining (for files) backup set with nonce=4ab5a4de22ac, datestamp=1685359939 (May 29 2023 11:32:19)
+0022.150 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0022.150 (0) Examining (for files) backup set with nonce=cde669873352, datestamp=1685015685 (May 25 2023 11:54:45)
+0022.150 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0022.151 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0022.156 (0) Saving backup status to database (elements: 8)
+0022.158 (0) No database backup (wp) - not part of this run
+0022.160 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-plugins.zip: plugins: This file has already been successfully uploaded
+0022.160 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-themes.zip: themes: This file has already been successfully uploaded
+0022.161 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-uploads.zip: uploads: This file has already been successfully uploaded
+0022.161 (0) backup_2023-05-31-1000_HC_exam_project_621987893115-others.zip: others: This file has already been successfully uploaded
+0022.161 (0) Saving backup history. Total backup size: 112.4 MB
+0022.163 (0) Resume backup (621987893115, 0): finish run
+0022.164 (0) There were no more files that needed uploading
+0022.165 (0) Decremented the semaphore (f) by 1
+0022.166 (0) Semaphore (f) unlocked
+0022.166 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0022.168 (0) No email will be sent - this backup set was empty.
+0022.169 (0) The backup apparently succeeded and is now complete
